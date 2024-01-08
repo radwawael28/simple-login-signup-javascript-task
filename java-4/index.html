@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@400;700&family=Titillium+Web:wght@200;300;400&display=swap" rel="stylesheet">
+
+    
+</head>
+<body>
+    <span class="d-none" id="username"></span>
+    <div class="container my-5 text-center">
+    <div class="group login w-75 m-auto p-5 " >
+    <h1 class="mb-4">Smart Login System</h1>
+    <input type = "text" id="signinEmail" class="form-control my-3" placeholder="Enter your email">
+    <input type = "password" id="signinPassword" class="form-control my-3" name="password" placeholder="Enter your password">
+    <p id="incorrect"></p>
+    <button class="btn btn-outline-info w-100" onclick="logIn()">Log in</button>
+    <p class="text-white mt-3">Don’t have an account? <a class='text-white' href='signup.html'>Sign Up</a></p>
+    </div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
